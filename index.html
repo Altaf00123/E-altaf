@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-altaf</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+background:linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#000428);
+background-size:400% 400%;
+animation:bg 12s ease infinite;
+}
+
+@keyframes bg{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.card{
+width:360px;
+padding:35px;
+border-radius:25px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.15);
+text-align:center;
+box-shadow:0 0 40px rgba(0,0,0,.4);
+animation:up 1s;
+}
+
+@keyframes up{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+img{
+width:140px;
+height:140px;
+border-radius:50%;
+border:4px solid #00eaff;
+box-shadow:0 0 30px #00eaff;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+h1{
+color:#fff;
+font-size:34px;
+}
+
+p{
+color:#ddd;
+margin:8px 0 25px;
+}
+
+.btn{
+display:block;
+margin:14px 0;
+padding:14px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+color:#fff;
+transition:.4s;
+}
+
+.btn:hover{
+transform:translateY(-4px) scale(1.04);
+box-shadow:0 0 25px white;
+}
+
+.instagram{
+background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);
+}
+
+.facebook{
+background:#1877F2;
+}
+
+.telegram{
+background:#229ED9;
+}
+
+.email{
+background:#00c853;
+}
+
+footer{
+margin-top:22px;
+color:#ccc;
+font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="profile.jpg">
+
+<h1>E-altaf</h1>
+
+<p>Welcome To My Official Profile</p>
+
+<a class="btn instagram" href="https://www.instagram.com/altafff.14?igsh=MmJrMDVoMHI3bXZv" target="_blank">📸 Instagram</a>
+
+<a class="btn facebook" href="https://www.facebook.com/share/1EiL5EzPNR/" target="_blank">📘 Facebook</a>
+
+<a class="btn telegram" href="https://telegram.me/x_iam_altaf_x" target="_blank">✈️ Telegram</a>
+
+<a class="btn email" href="mailto:altaf805132@gmail.com">📧 Email Me</a>
+
+<footer>
+© 2026 E-altaf | Made with ❤️ by Altaf
+</footer>
+
+</div>
+
+</body>
+</html>
